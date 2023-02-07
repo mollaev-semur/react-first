@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
+import CheckForLegal from "./components/check_for_legal/default";
 
 function App() {
   return (
     <>
-      Hi
+      <CheckForLegal />
     </>
   )
 }
