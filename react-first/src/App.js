@@ -1,10 +1,9 @@
 import React, { useState } from "react";
+import MathQuiz from "./components/math-quiz/default";
 
 function App() {
   return (
-    <>
-      Hi
-    </>
+    <MathQuiz />
   )
 }
 
